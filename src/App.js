@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Blog,
   Footer,
@@ -8,13 +7,13 @@ import {
   WhatGPT3,
   Header,
 } from "./containers/export";
-
 import { Cta, Brand, Navbar } from "./components/export";
+import "./app.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="gradient_bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
